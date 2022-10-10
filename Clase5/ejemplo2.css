@@ -1,0 +1,11 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Silkscreen', cursive;
+*/
+h2{
+    color: red;
+    font-family: 'Silkscreen', cursive;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
