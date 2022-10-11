@@ -1,0 +1,25 @@
+.contenedor{
+    background-color: rgb(149, 160, 170);
+    width: 60%;
+    margin: 0 auto;/*(0)arriba y abajo. (auto)derecha e izquierda*/
+    height: 500px;
+    padding-top: 20px;
+}
+.verde{
+    background-color: green;
+    width: 90%;
+    margin: 0 auto 20px;/*(0)arriba (auto)laterales (20px)abajo*/
+    height: 150px;
+}
+.celeste{
+    background-color: blue;
+    width: 90%;
+    margin: 0 auto 20px;/*(0)arriba (auto)laterales (20px)abajo*/
+    height: 150px;
+}
+.amarillo{
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto 20px;/*(0)arriba (auto)laterales (20px)abajo*/
+    height: 150px;
+}
