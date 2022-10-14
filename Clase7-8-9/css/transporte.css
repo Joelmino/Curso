@@ -32,3 +32,66 @@ nav ul{
 nav ul li{
     flex-grow: 1;
 }
+
+nav ul li a{
+    color: white;
+    text-decoration: none; /*quita el subrayado de las palabras*/
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background: rgb(0,0,0,0.3);
+}
+nav ul li a.activo{
+    background: rgb(0,0,0,0.3);
+}
+
+footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 16px;
+}
+
+.testimonios{
+    width: 25%;
+}
+
+.columnas{
+    display: flex;
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}
