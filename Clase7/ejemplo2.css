@@ -1,0 +1,25 @@
+.caja{
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: all 0.5s ease;
+    cursor: pointer;/*para que aparezca la manito en lugar de la flecha*/
+}
+.caja:hover{/*cuando pasas la flecha encima de algo cambia una propiedad*/
+    /*transform: scale(1.2);*/
+    background-color: blue;
+    color: white;
+}
+img{
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    filter: grayscale(0);
+}
