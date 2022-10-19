@@ -227,4 +227,11 @@ h2{
     color: white;
     font-size: 16px;
     width: auto;
+    margin-left: 100px;
+    transition: all 0.2s ease;
+    cursor: pointer; 
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
 }
