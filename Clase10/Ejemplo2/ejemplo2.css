@@ -1,0 +1,70 @@
+body{
+    background-color: brown;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    background-color: gray;
+    padding: 20px;
+}
+
+.holder{
+    display: flex;
+}
+
+nav{
+    background-color: tomato;
+    width: 30%;
+}
+main{
+    background-color: khaki;
+    width: 40%;
+}
+aside{
+    background-color: darkcyan;
+    width: 30%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: bisque;
+}
+
+@media (max-width:480px){
+    body{
+        background-color: beige;
+    }
+    header{
+        text-align: center;
+    }
+    .holder{
+        flex-wrap: wrap;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding: 8px;
+    }
+    aside{
+        width: 100%;
+        padding: 8px;
+    }
+}
