@@ -255,4 +255,26 @@ h2{
         padding-left: 16px;
         padding-right: 16px;
     }
+    .personas{
+        flex-wrap: wrap;
+    }
+    .persona{
+        width: 47%;
+        margin-bottom: 10px;
+    }
+    .historia p{
+        color: red;
+        font-size: 20px;
+    }
+    .servicio,
+    .servicio:nth-child(even){
+        flex-direction: column;
+    }
+    .servicio img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .contacto{
+        flex-direction: column;
+    }
 }
